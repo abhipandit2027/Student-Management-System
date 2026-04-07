@@ -1,102 +1,128 @@
-#  Student Management System (Advance Java Project)
+# Student Management System
+### Advanced Java Desktop Application
 
-##  Project Overview
-The **Student Management System** is a desktop-based application developed using **Advanced Java concepts**. It allows users to manage student records efficiently through a modern graphical user interface.
+**Developed by:** Abhishek Tiwari  
+**Registration Number:** 24BCE11220
+
+---
+
+## Project Overview
+
+The **Student Management System** is a desktop-based application developed using **Advanced Java concepts**. It enables users to manage student records efficiently through a modern, intuitive graphical user interface.
 
 This project demonstrates real-world implementation of:
+
 - Java GUI (Swing)
 - JDBC (Database Connectivity)
 - MySQL Integration
-- Object-Oriented Programming
+- Object-Oriented Programming Principles
 
+---
 
-##  Features
-- Add new student records  
-- View students in table format  
-- Update existing student details  
-- Delete student records  
-- Auto-refresh table after operations  
-- Modern and user-friendly GUI  
-- **Automatic database & table creation (No manual setup required)**  
+## Features
 
+- Add new student records
+- View all students in a structured table format
+- Update existing student details
+- Delete student records
+- Auto-refresh table after every operation
+- Modern and user-friendly GUI design
+- **Automatic database & table creation — no manual setup required**
 
-##  Technologies Used
-- Java (JDK 8+)
-- Swing (GUI)
-- JDBC API
-- MySQL Database
-- MySQL Connector (JAR)
+---
 
+## Technologies Used
 
-## 📂 Project Structure
-```
+| Technology | Purpose |
+|---|---|
+| Java (JDK 8+) | Core application logic |
+| Swing | Graphical User Interface |
+| JDBC API | Database connectivity |
+| MySQL | Backend data storage |
+| MySQL Connector JAR | JDBC driver for MySQL |
+
+## Project Structure
 StudentManagementSystem/
 │
 ├── lib/
-│ └── mysql-connector-j-9.6.0.jar
+│   └── mysql-connector-j-9.6.0.jar
 │
 ├── src/
-│ ├── Main.java
-│ ├── GUI.java
-│ ├── Student.java
-│ ├── StudentDAO.java
-│ └── DBConnection.java
+│   ├── Main.java
+│   ├── GUI.java
+│   ├── Student.java
+│   ├── StudentDAO.java
+│   └── DBConnection.java
 │
 ├── .gitignore
 └── README.md
-```
+---
 
+## Setup Instructions
 
-##  Setup Instructions
+### Prerequisites
 
-###  Install Required Software
-- Install Java JDK  
-- Install MySQL Server  
+- Java JDK 8 or higher
+- MySQL Server
 
+### Running the Project — No Database Setup Needed!
 
-###  Run the Project (No Database Setup Needed )
+There is **no need to manually create a database or table.**  
+On first launch, the application automatically:
 
- No need to manually create database or table  
-
-The application will automatically:
-- Create database `studentdb`
-- Create table `students`
-
+- Creates the `studentdb` database
+- Creates the `students` table
 
 ### Compile the Project
-
 ```bash
 javac -cp ".;lib/mysql-connector-j-9.6.0.jar" src/*.java
 ```
 
 ### Run the Project
-
 ```bash
 java -cp ".;lib/mysql-connector-j-9.6.0.jar;src" Main
 ```
 
+---
 
 ## Application Interface
 
-### The application includes:
 ### Input Fields
+
 - Name
 - Course
 - Registration Number
 - Email
+
 ### Functional Buttons
-- Add
-- Update
-- Delete
+
+| Button | Action |
+|---|---|
+| Add | Inserts a new student record |
+| Update | Modifies an existing record |
+| Delete | Removes a selected record |
+
 ### Table View
-- Displays all student records dynamically
+
+Displays all student records dynamically, with automatic refresh after every operation.
+
+---
 
 ## Future Enhancements
-- Search functionality
-- Login authentication system
-- Export data to file
+
+- Search and filter functionality
+- Login and authentication system
+- Export data to CSV or PDF
 - UI upgrade using JavaFX
 
-## Conclusion
+---
 
-This project demonstrates how Advanced Java concepts can be used to build a complete database-driven desktop application. It integrates GUI, backend logic, and database operations effectively.
+## Author
+
+**Abhishek Tiwari**  
+Registration No: `24BCE11220`  
+B.Tech – Computer Science and Engineering
+
+---
+
+## Project Structure
