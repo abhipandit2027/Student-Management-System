@@ -42,6 +42,7 @@ This project demonstrates real-world implementation of:
 | MySQL Connector JAR | JDBC driver for MySQL |
 
 ## Project Structure
+
 StudentManagementSystem/
 │
 ├── lib/
@@ -125,4 +126,4 @@ B.Tech – Computer Science and Engineering
 
 ---
 
-## Project Structure
+
