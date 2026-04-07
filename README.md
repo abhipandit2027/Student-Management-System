@@ -41,7 +41,7 @@ This project demonstrates real-world implementation of:
 | MySQL | Backend data storage |
 | MySQL Connector JAR | JDBC driver for MySQL |
 
-## Project Structure
+ ## Project Structure
 
 StudentManagementSystem/
 │
